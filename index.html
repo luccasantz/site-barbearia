@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Marcos Paulo Barbearia - Corte Masculino Profissional em Governador Eugênio Barros - MA">
+    <meta name="theme-color" content="#0A0A0A">
+    <title>Marcos Paulo Barbearia - Corte Masculino Profissional</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Preload Hero Image -->
+    <link rel="preload" as="image" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/hero-barber-cut-cwKpR6tBwbnJPeS7b7wdd6.webp">
+    
+    <!-- DNS Prefetch for CDN -->
+    <link rel="dns-prefetch" href="https://d2xsxph8kpxj0f.cloudfront.net">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-circle">MP</div>
+                    <div class="logo-text">
+                        <h1>MARCOS PAULO</h1>
+                        <p>BARBEARIA</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link">HOME</a>
+                    <a href="#services" class="nav-link">SERVIÇOS</a>
+                    <a href="#gallery" class="nav-link">GALERIA</a>
+                    <a href="#products" class="nav-link">PRODUTOS</a>
+                    <a href="#location" class="nav-link">LOCALIZAÇÃO</a>
+                    <a href="#contact" class="nav-link">CONTATO</a>
+                </nav>
+
+                <!-- WhatsApp Button + Mobile Menu -->
+                <div class="header-actions">
+                    <a href="https://wa.me/558899999999" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-header">
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.255.949c-1.238.503-2.39 1.242-3.286 2.128-1.797 1.809-2.745 4.05-2.745 6.741 0 1.298.199 2.581.58 3.783L2.29 22l4.305-1.422c1.112.588 2.36.9 3.606.9h.004c3.555 0 6.659-2.537 7.365-5.953.321-1.604.226-3.39-.56-4.99-.576-1.203-1.505-2.137-2.614-2.849-1.109-.712-2.467-1.112-3.935-1.112z"/>
+                        </svg>
+                        <span class="btn-text">AGENDAR</span>
+                    </a>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#home" class="nav-link-mobile">HOME</a>
+                <a href="#services" class="nav-link-mobile">SERVIÇOS</a>
+                <a href="#gallery" class="nav-link-mobile">GALERIA</a>
+                <a href="#products" class="nav-link-mobile">PRODUTOS</a>
+                <a href="#location" class="nav-link-mobile">LOCALIZAÇÃO</a>
+                <a href="#contact" class="nav-link-mobile">CONTATO</a>
+                <a href="https://wa.me/558899999999" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-mobile">
+                    <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.255.949c-1.238.503-2.39 1.242-3.286 2.128-1.797 1.809-2.745 4.05-2.745 6.741 0 1.298.199 2.581.58 3.783L2.29 22l4.305-1.422c1.112.588 2.36.9 3.606.9h.004c3.555 0 6.659-2.537 7.365-5.953.321-1.604.226-3.39-.56-4.99-.576-1.203-1.505-2.137-2.614-2.849-1.109-.712-2.467-1.112-3.935-1.112z"/>
+                    </svg>
+                    AGENDAR VIA WHATSAPP
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <!-- Conteúdo -->
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="subtitle">SEU ESTILO, NOSSA ARTE</p>
+                    <h1 class="hero-title">MARCOS PAULO</h1>
+                    <div class="divider"></div>
+                    <p class="hero-subtitle">CORTE MASCULINO PROFISSIONAL</p>
+                    
+                    <div class="hero-info">
+                        <div class="info-item">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Governador Eugênio Barros - MA</span>
+                        </div>
+                        <div class="info-item">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            <span>Seg a Sáb: 08h às 18h</span>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/558899999999" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.255.949c-1.238.503-2.39 1.242-3.286 2.128-1.797 1.809-2.745 4.05-2.745 6.741 0 1.298.199 2.581.58 3.783L2.29 22l4.305-1.422c1.112.588 2.36.9 3.606.9h.004c3.555 0 6.659-2.537 7.365-5.953.321-1.604.226-3.39-.56-4.99-.576-1.203-1.505-2.137-2.614-2.849-1.109-.712-2.467-1.112-3.935-1.112z"/>
+                        </svg>
+                        <div>
+                            <div class="btn-title">AGENDAR SEU HORÁRIO</div>
+                            <span class="btn-subtitle">Fale conosco agora pelo WhatsApp</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Imagem Hero -->
+            <div class="hero-image">
+                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/hero-barber-cut-cwKpR6tBwbnJPeS7b7wdd6.webp" alt="Corte de cabelo profissional" loading="lazy">
+                <div class="hero-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">NOSSOS</p>
+                <h2 class="section-title">SERVIÇOS</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M7 6L17 16M17 6L7 16"/>
+                    </svg>
+                    <h3>CORTE MASCULINO</h3>
+                    <p class="price">R$ 30,00</p>
+                </div>
+
+                <div class="service-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M12 2v20M2 12h20"/>
+                    </svg>
+                    <h3>BARBA</h3>
+                    <p class="price">R$ 25,00</p>
+                </div>
+
+                <div class="service-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M7 6L17 16M17 6L7 16"/>
+                    </svg>
+                    <h3>CORTE + BARBA</h3>
+                    <p class="price">R$ 50,00</p>
+                </div>
+
+                <div class="service-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M12 2v20M2 12h20"/>
+                    </svg>
+                    <h3>SOBRANCELHA</h3>
+                    <p class="price">R$ 10,00</p>
+                </div>
+
+                <div class="service-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M12 2L15 8H22L17 12L19 18L12 14L5 18L7 12L2 8H9L12 2Z"/>
+                    </svg>
+                    <h3>PEZINHO</h3>
+                    <p class="price">R$ 10,00</p>
+                </div>
+
+                <div class="service-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M3 12c0-4 2-6 9-6s9 2 9 6-2 6-9 6-9-2-9-6z"/>
+                    </svg>
+                    <h3>BICODE</h3>
+                    <p class="price">R$ 5,00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">ALGUNS DOS</p>
+                <h2 class="section-title">NOSSOS CORTES</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/haircut-gallery-1-QhwMM7R8Ho8zPHswuYxyjn.webp" alt="Corte 1" loading="lazy">
+                    <div class="gallery-overlay"></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/haircut-gallery-2-E6fpHPWAhUZm4mNe4RNhmV.webp" alt="Corte 2" loading="lazy">
+                    <div class="gallery-overlay"></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/haircut-gallery-3-Xj9fWyuqWSBPUDYesrUvNw.webp" alt="Corte 3" loading="lazy">
+                    <div class="gallery-overlay"></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/haircut-gallery-1-QhwMM7R8Ho8zPHswuYxyjn.webp" alt="Corte 4" loading="lazy">
+                    <div class="gallery-overlay"></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/haircut-gallery-2-E6fpHPWAhUZm4mNe4RNhmV.webp" alt="Corte 5" loading="lazy">
+                    <div class="gallery-overlay"></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/haircut-gallery-3-Xj9fWyuqWSBPUDYesrUvNw.webp" alt="Corte 6" loading="lazy">
+                    <div class="gallery-overlay"></div>
+                </div>
+            </div>
+
+            <div class="gallery-footer">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                    VER MAIS FOTOS
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.011 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.011 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.011-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.011-3.584.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">PRODUTOS</p>
+                <h2 class="section-title">DISPONÍVEIS</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/haircut-gallery-1-QhwMM7R8Ho8zPHswuYxyjn.webp" alt="Pomada Modeladora" loading="lazy">
+                    </div>
+                    <h3>POMADA MODELADORA</h3>
+                    <p class="price">R$ 30,00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/haircut-gallery-2-E6fpHPWAhUZm4mNe4RNhmV.webp" alt="Minoxidil 15%" loading="lazy">
+                    </div>
+                    <h3>MINOXIDIL 15%</h3>
+                    <p class="price">R$ 50,00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/haircut-gallery-3-Xj9fWyuqWSBPUDYesrUvNw.webp" alt="Escova de Cabelo" loading="lazy">
+                    </div>
+                    <h3>ESCOVA DE CABELO</h3>
+                    <p class="price">R$ 5,00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">ONDE ESTAMOS</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="location-content">
+                <!-- Mapa -->
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.6234567890!2d-43.6789012!3d-2.7654321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwNDUnNTUuNSJVIDA0M8KwNDAnNTIuNSJX!5e0!3m2!1spt-BR!2sbr!4v1234567890" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <!-- Informações -->
+                <div class="location-info">
+                    <div class="info-box">
+                        <h3>INFORMAÇÕES</h3>
+
+                        <div class="info-details">
+                            <div class="detail-item">
+                                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <div>
+                                    <p class="detail-title">Endereço</p>
+                                    <p class="detail-text">
+                                        Rua Principal, 123<br>
+                                        Centro<br>
+                                        Governador Eugênio Barros - MA
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                                <div>
+                                    <p class="detail-title">Horário de Funcionamento</p>
+                                    <p class="detail-text">
+                                        Segunda a Sexta: 08h às 18h<br>
+                                        Sábado: Fechado
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                                </svg>
+                                <div>
+                                    <p class="detail-title">Contato</p>
+                                    <a href="https://wa.me/558899999999" class="detail-link">(88) 9 9999-9999</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/558899999999" target="_blank" rel="noopener noreferrer" class="btn-primary btn-full">
+                        CHAMAR NO WHATSAPP
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section id="contact" class="cta-final">
+        <div class="cta-background">
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663584782080/6WXV5NUNas5eq44jqT7JNU/barbershop-interior-BTxtwuYTDyA5eXhXidLht9.webp" alt="Interior da barbearia" loading="lazy">
+        </div>
+        <div class="container cta-content">
+            <h2 class="cta-title">PRONTO PARA DAR UM TRATO <span class="gold">NO VISUAL</span>?</h2>
+            <p class="cta-subtitle">Agende agora e garanta seu horário!</p>
+            <a href="https://wa.me/558899999999" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.255.949c-1.238.503-2.39 1.242-3.286 2.128-1.797 1.809-2.745 4.05-2.745 6.741 0 1.298.199 2.581.58 3.783L2.29 22l4.305-1.422c1.112.588 2.36.9 3.606.9h.004c3.555 0 6.659-2.537 7.365-5.953.321-1.604.226-3.39-.56-4.99-.576-1.203-1.505-2.137-2.614-2.849-1.109-.712-2.467-1.112-3.935-1.112z"/>
+                </svg>
+                CHAMAR NO WHATSAPP
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Marcos Paulo Barbearia. Todos os direitos reservados.</p>
+            <p>Desenvolvido com ❤️ para a sua barbearia</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/558899999999" target="_blank" rel="noopener noreferrer" class="whatsapp-float">
+        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.255.949c-1.238.503-2.39 1.242-3.286 2.128-1.797 1.809-2.745 4.05-2.745 6.741 0 1.298.199 2.581.58 3.783L2.29 22l4.305-1.422c1.112.588 2.36.9 3.606.9h.004c3.555 0 6.659-2.537 7.365-5.953.321-1.604.226-3.39-.56-4.99-.576-1.203-1.505-2.137-2.614-2.849-1.109-.712-2.467-1.112-3.935-1.112z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
